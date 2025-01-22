@@ -1,23 +1,78 @@
+@font-face {
+    font-family: "Monofonto";
+    src: url("../fonts/monofonto.ttf");
+}
 
+header {
+    text-align: center;
+}
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Monofonto', sans-serif;
+    background-color: #EBE9E1;
+    color: #E43D12;
 }
 
 nav {
-
+    width: 100%;
+    background-color: #FFA2B6;
 }
 
 nav ul {
-
-}
-
-nav ul li {
-
+    padding: 15;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav ul li a {
-
+    text-decoration: none;
+    padding: 14px 16px;
 }
 
+nav ul li a:hover {
+    color: #D6536D;
+}
+
+#hobbies_music {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pets {
+    text-align: center;
+}
+
+#pet_images {
+    padding: 15;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pet_images div {
+    flex: 1 1 150px;
+}
+
+#big_questions {
+    text-align: center;
+}
+
+#media_gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100%;
+    text-decoration: none;
+    background-color: #FFA2B6;
+    padding: 15;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
