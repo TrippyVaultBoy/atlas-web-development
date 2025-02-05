@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: "Source Sans Pro";
+    width: 1440px;
+    height: auto;
+}
+
+header {
+    background-image: url(./images/pic_1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1093px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#header_bar {
+    width: 1103.41px;
+    height: 29.46px;
+    position: absolute;
+    top: 35.02px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header_bar a {
+    width: 167.02px;
+    height: 29.46px;
+}
+
+#header_bar nav {
+    justify-self: flex-end;
+    width: 234px;
+    height: 15px;
+}
+
+#header_bar nav a {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#main_part {
+    position: absolute;
+    top: 220px;
+}
+
+#get_schooled {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#get_schooled h1 {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#get_schooled div {
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#register_button {
+    width: 162px;
+    height: 44px;
+    margin-top: 55px;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 22px;
+}
+
+#pros {
+    width: 1009px;
+    height: 237px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#profiles {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#profiles div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#quote_part {
+    width: 1440px;
+    height: 392px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+#quote_part div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#quote_part div img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    margin-right: 50px;
+}
+
+#quote_part div div {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+    width: 730px;
+    height: 150px;
+}
+
+#quote_part div div blockquote {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#quote_part div div p {
+    align-self: flex-start;
+}
+
+#tutorials_part {
+    width: 100%;
+}
+
+#tutorials_part > h1 {
+    margin: 100px 0 100px 0;
+    font-size: 32px;
+}
+
+#tutorials {
+    margin: 0px 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tuto_video > img {
+    display: flex;
+    width: 255px;
+    height: 154px;
+    border-radius: 10px 10px 0 0;
+}
+
+.tuto_video {
+    display: flex;
+    flex-direction: column;
+}
+
+.tuto_video h2 {
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.tuto_video > p {
+    width: 242px;
+    height: 48px;
+    text-align: left;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+}
+
+.author h3 {
+    text-align: center;
+    margin: 0 10px 0 10px;
+    color: #C271FF;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.rating img {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 5px;
+}
+
+.rating p {
+    margin-left: 90px;
+    color: #C271FF;
+}
