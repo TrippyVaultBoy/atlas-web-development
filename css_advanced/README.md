@@ -10,4 +10,4 @@ This project is a continuation of HTML Advanced (Max's Version)
 - Know what box properties are
 - Know how a browser loads a webpage
 
-## [Link to Github Pages]()
+## [Link to Github Pages](https://trippyvaultboy.github.io/)
