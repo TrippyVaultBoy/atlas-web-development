@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     width: 1440px;
     height: auto;
 }
@@ -19,6 +19,7 @@ header {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+    background-color: #071629;
 }
 
 #header_bar {
@@ -71,7 +72,7 @@ header {
     justify-content: space-around;
 }
 
-#register_button {
+.register_button {
     width: 162px;
     height: 44px;
     margin-top: 55px;
@@ -144,6 +145,7 @@ header {
 
 #tutorials_part {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 #tutorials_part > h1 {
@@ -167,6 +169,9 @@ header {
 .tuto_video {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 255px;
+    height: 335px;
 }
 
 .tuto_video h2 {
@@ -176,6 +181,7 @@ header {
 }
 
 .tuto_video > p {
+    font-size: 14px;
     width: 242px;
     height: 48px;
     text-align: left;
@@ -214,4 +220,123 @@ header {
 .rating p {
     margin-left: 90px;
     color: #C271FF;
+}
+
+#membership_part {
+    width: 1440px;
+    height: 502px;
+    background-color: #071629;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#membership_part > h1 {
+    font-size: 32px;
+    margin: 30px 0 30px 0;
+}
+
+#dot_container {
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dot {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dot img {
+    width: 43.67px;
+    height: 35.35px;
+    align-self: center;
+}
+
+.dot h2 {
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+}
+
+.dot p {
+    font-size: 14px;
+}
+
+#membership_part button {
+    margin: 20px 0 20px;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+#faq_part {
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#faq_part h1 {
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+#faq_container {
+    margin: 0 250px 0 250px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.faq_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq {
+    width: 350px;
+}
+
+.faq h2 {
+    margin: 20px 0 20px 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faq p {
+    text-align: left;
+    font-size: 14px;
+    color: #071629;
+}
+
+footer {
+    width: 1440px;
+    height: 249px;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFFFFF;
+
+}
+
+#footer_content {
+    margin: 0 200px 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div p {
+    margin-top: 50px;
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    font-size: 12px;
+    opacity: 35%;
 }
