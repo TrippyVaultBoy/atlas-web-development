@@ -6,7 +6,6 @@
 body {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    width: 1440px;
     height: auto;
 }
 
@@ -44,6 +43,7 @@ header {
 }
 
 #header_bar nav a {
+    margin: 0 10px 0 10px;
     font-weight: bold;
     font-size: 12px;
 }
@@ -62,7 +62,7 @@ header {
 
 #get_schooled h1 {
     font-size: 120px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #get_schooled div {
@@ -85,6 +85,9 @@ header {
     border: none;
     border-radius: 22px;
     color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #pros {
@@ -101,6 +104,11 @@ header {
     justify-content: space-between;
 }
 
+#profiles > div {
+    width: 150px;
+    height: 237px;
+}
+
 #profiles div img {
     width: 150px;
     height: 150px;
@@ -108,7 +116,6 @@ header {
 }
 
 #quote_part {
-    width: 1440px;
     height: 392px;
     background-color: #C271FF;
     color: #FFFFFF;
@@ -131,7 +138,7 @@ header {
 
 #quote_part div div {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 22px;
     width: 730px;
     height: 150px;
@@ -140,6 +147,8 @@ header {
 #quote_part div div blockquote {
     text-align: left;
     margin: 0 0 20px 0;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .ital {
@@ -190,10 +199,25 @@ header {
     height: 335px;
 }
 
+.play_button {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    align-self: center;
+    margin-top: 50px; 
+    display: flex;
+}
+
+.play_button img {
+    width: 64px;
+    height: 64px;
+}
+
 .tuto_video h2 {
     margin: 10px 0 10px 0;
     font-size: 16px;
     text-align: left;
+    font-weight: 700;
 }
 
 .tuto_video > p {
@@ -239,7 +263,6 @@ header {
 }
 
 #membership_part {
-    width: 1440px;
     height: 502px;
     background-color: #071629;
     color: #FFFFFF;
@@ -252,6 +275,7 @@ header {
 #membership_part > h1 {
     font-size: 32px;
     margin: 30px 0 30px 0;
+    font-weight: 700;
 }
 
 #dot_container {
@@ -288,7 +312,6 @@ header {
 }
 
 #faq_part {
-    width: 1440px;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -298,10 +321,12 @@ header {
 #faq_part h1 {
     margin-top: 40px;
     font-size: 60px;
+    font-weight: 300 !important;
+    line-height: 75px;
 }
 
 #faq_container {
-    margin: 0 250px 0 250px;
+    margin: 0 300px 0 300px;
     height: 707px;
     display: flex;
     flex-direction: column;
@@ -332,7 +357,6 @@ header {
 }
 
 footer {
-    width: 1440px;
     height: 249px;
     background-color: #071629;
     display: flex;
