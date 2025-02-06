@@ -72,6 +72,11 @@ header {
     justify-content: space-around;
 }
 
+#get_schooled div p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .register_button {
     width: 162px;
     height: 44px;
@@ -79,6 +84,7 @@ header {
     background-color: #C271FF;
     border: none;
     border-radius: 22px;
+    color: #FFFFFF;
 }
 
 #pros {
@@ -133,6 +139,11 @@ header {
 
 #quote_part div div blockquote {
     text-align: left;
+    margin: 0 0 20px 0;
+}
+
+.ital {
+    font-style: italic;
 }
 
 .bold {
@@ -151,6 +162,11 @@ header {
 #tutorials_part > h1 {
     margin: 100px 0 100px 0;
     font-size: 32px;
+}
+
+.blue_bold {
+    color: #C271FF;
+    font-weight: bold;
 }
 
 #tutorials {
